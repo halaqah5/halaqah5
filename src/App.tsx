@@ -26,11 +26,11 @@ import {
 } from "lucide-react";
 import { useRef } from "react";
 
-// Image constants - using the ones generated earlier
-const HERO_BG = "/src/assets/images/hero_background_1778990052752.png";
-const MATERI_BG = "/src/assets/images/materi_background_1778990066712.png";
-const SKILL_BG = "/src/assets/images/skill_ai_hologram_1778990083994.png";
-const DOKUMENTASI_IMG = "/src/assets/images/dokumentasi_halaqah_1778990599736.png";
+// Import images to ensure they are bundled correctly by Vite
+import HERO_BG from "./assets/images/hero_background_1778990052752.png";
+import MATERI_BG from "./assets/images/materi_background_1778990066712.png";
+import SKILL_BG from "./assets/images/skill_ai_hologram_1778990083994.png";
+import DOKUMENTASI_IMG from "./assets/images/dokumentasi_halaqah_1778990599736.png";
 
 const Logo = () => (
   <motion.div 
