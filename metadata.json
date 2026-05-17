@@ -1,0 +1,6 @@
+{
+  "name": "HALAQAH 5.0",
+  "description": "Modern Islamic Landing Page for Youth Muslim Professionals",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
